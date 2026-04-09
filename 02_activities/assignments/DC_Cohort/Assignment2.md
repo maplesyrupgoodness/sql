@@ -56,7 +56,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+For type 1, the architecture would be simply to overwrite the old address values with the new address. In type 2, ythe old address would be inactive and new address would be inserted into a new row, with perhaps an additional column for active status. 
+
 ```
 
 ***
@@ -191,5 +192,12 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+This was an interesting read. In some ways, machines have always been built by humans to supplant human labor. From building a water wheel, to steam engines, the machinery was first built by human hands. From that perspective, it is not suprising if most of AI is also built initally with human labor. I believe the point of the article is not to condemn such progressions, but to ackowledge and pay tribute to the contributions of humans that layed the foundations of AI training. 
+
+However, extrapolating from such an insight, raises the question of where do humans belong if the world is increasingly being AI driven. If there ever come a case where AI can build more AIs, what is the role of humans? Would an AI built by AIs be less human centric as a result? Is that someting we would ever want? 
+
+There is no clear answer, nor does the article ever hope to provide one. But I think as AI get ever more advanced, it is ever more important for humans to impart human values to AI. And in some ways, that starts with human centric data. If ImageNet was just for photos, can we build a database for feelings and values? How can we curate a learning dataset that reflects our humanity, such that AIs would be trained to reflect us? While a lot of effort have been dedicated to A.I safety in the form of policy research and implenting guardrails, perhaps the greatest contributor to eventual A.I safety could be spent on curating data. Perhaps, we should ultimately make neural nets about humans, all the way down,for a good reason. 
+
+
+
 ```

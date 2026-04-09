@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15" version="29.6.6">
+  <diagram name="Page-1" id="z5DM3udgM5Zs43CUZtX5">
+    <mxGraphModel dx="1975" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QB-5g8ICw2txffnKFeIr-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Time Date Table&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Date (YYYYMMDD)&lt;/div&gt;&lt;div&gt;Hours (in half hour increments)&lt;/div&gt;&lt;div&gt;Quarter (1-4)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="290" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;Employee&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Employee_ID&lt;/div&gt;&lt;div&gt;First_Name&lt;/div&gt;&lt;div&gt;Last_Name&lt;/div&gt;&lt;div&gt;Email&lt;/div&gt;&lt;div&gt;Shift_ID&lt;/div&gt;&lt;div&gt;Phone Number&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Order&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Order_ID&lt;/div&gt;&lt;div&gt;Date&lt;/div&gt;&lt;div&gt;Customer_ID&lt;/div&gt;&lt;div&gt;Employee_ID&lt;/div&gt;&lt;div&gt;Amount&amp;nbsp;&lt;/div&gt;&lt;div&gt;Status&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="290" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Sales&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Order_ID&lt;/div&gt;&lt;div&gt;Book_ID&lt;/div&gt;&lt;div&gt;Quantity&amp;nbsp;&lt;/div&gt;&lt;div&gt;Unit_Price&lt;/div&gt;&lt;div&gt;Total_Price &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="550" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Customer&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Customer_ID&lt;/div&gt;&lt;div&gt;&amp;nbsp;First_Name&lt;/div&gt;&lt;div&gt;Last_Name&lt;/div&gt;&lt;div&gt;Email&lt;/div&gt;&lt;div&gt;Phone Number&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="290" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Book Entities&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Title&amp;nbsp;&lt;/div&gt;&lt;div&gt;Book_ID (ISBN)&amp;nbsp;&lt;/div&gt;&lt;div&gt;Price&amp;nbsp;&lt;/div&gt;&lt;div&gt;Publisher &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="780" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-7" edge="1" parent="1" source="QB-5g8ICw2txffnKFeIr-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QB-5g8ICw2txffnKFeIr-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="170" as="sourcePoint" />
+            <mxPoint x="620" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-9" edge="1" parent="1" source="QB-5g8ICw2txffnKFeIr-6" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="QB-5g8ICw2txffnKFeIr-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="170" as="sourcePoint" />
+            <mxPoint x="620" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-11" edge="1" parent="1" source="QB-5g8ICw2txffnKFeIr-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QB-5g8ICw2txffnKFeIr-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="170" as="sourcePoint" />
+            <mxPoint x="620" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-14" edge="1" parent="1" source="QB-5g8ICw2txffnKFeIr-3" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QB-5g8ICw2txffnKFeIr-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="570" y="200" as="sourcePoint" />
+            <mxPoint x="620" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 (employee) to many Order" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 (Customer) to many Order" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 (Order) to many Sales&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-18" edge="1" parent="1" source="QB-5g8ICw2txffnKFeIr-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QB-5g8ICw2txffnKFeIr-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="360" as="sourcePoint" />
+            <mxPoint x="580" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A primary Key&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="55" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 (Date) to many order&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 (Book) to many Sales" vertex="1">
+          <mxGeometry height="30" width="60" x="710" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A primary Key&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="825" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A primary Key&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-28" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;Shift&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Employee_ID&lt;/div&gt;&lt;div&gt;Shift_ID&lt;/div&gt;&lt;div&gt;Shift Start Time&amp;nbsp;&lt;/div&gt;&lt;div&gt;Shift End Time &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="-260" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-31" edge="1" parent="1" source="QB-5g8ICw2txffnKFeIr-2" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="QB-5g8ICw2txffnKFeIr-28" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(27, 29, 30);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22text%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3B%22%20value%3D%22A%20primary%20Key%26amp%3Bnbsp%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%2260%22%20x%3D%2255%22%20y%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt; ">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-110" y="160" as="sourcePoint" />
+            <mxPoint x="-60" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 (employee) to many shifts" vertex="1">
+          <mxGeometry height="30" width="60" x="-80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-33" edge="1" parent="1" source="QB-5g8ICw2txffnKFeIr-28" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="289" y="-10" as="sourcePoint" />
+            <mxPoint x="289" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A primary Key&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="-215" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QB-5g8ICw2txffnKFeIr-35" edge="1" parent="1" source="QB-5g8ICw2txffnKFeIr-28" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="QB-5g8ICw2txffnKFeIr-2" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(27, 29, 30);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22text%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3B%22%20value%3D%22A%20primary%20Key%26amp%3Bnbsp%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%2260%22%20x%3D%2255%22%20y%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt; ">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="170" as="sourcePoint" />
+            <mxPoint x="-10" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

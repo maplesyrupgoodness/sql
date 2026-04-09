@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15" version="29.6.6">
+  <diagram name="Page-1" id="qyoq8ZTtZfRAx0VpcCW8">
+    <mxGraphModel dx="811" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VP-Qij7uiqnTVkVi7qra-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Customer (Primary)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;customer_first_name&lt;/div&gt;&lt;div&gt;customer_last_name&lt;/div&gt;&lt;div&gt;customer_postal_code&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="170" x="170" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VP-Qij7uiqnTVkVi7qra-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Customer_purchases (Foreign Key)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;product_id&lt;/div&gt;&lt;div&gt;vendor_id&lt;/div&gt;&lt;div&gt;market_date&lt;/div&gt;&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;quantity&amp;nbsp;&lt;/div&gt;&lt;div&gt;cost_to_customer_per_qty&amp;nbsp;&lt;/div&gt;&lt;div&gt;transaction time&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="170" x="650" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="VP-Qij7uiqnTVkVi7qra-3" edge="1" parent="1" source="VP-Qij7uiqnTVkVi7qra-1" style="endArrow=diamondThin;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.029;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" target="VP-Qij7uiqnTVkVi7qra-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VP-Qij7uiqnTVkVi7qra-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="One (customer_id)to Many Relationship&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="110" x="470" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="VP-Qij7uiqnTVkVi7qra-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Customer_purchases&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;product_id&lt;/div&gt;&lt;div&gt;vendor_id&lt;/div&gt;&lt;div&gt;market_date&lt;/div&gt;&lt;div&gt;customer_id&lt;/div&gt;&lt;div&gt;quantity&amp;nbsp;&lt;/div&gt;&lt;div&gt;cost_to_customer_per_qty&amp;nbsp;&lt;/div&gt;&lt;div&gt;transaction time&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="170" x="160" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="VP-Qij7uiqnTVkVi7qra-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Product&amp;nbsp;&lt;div&gt;product_id&lt;/div&gt;&lt;div&gt;product_name&lt;/div&gt;&lt;div&gt;product_size&lt;/div&gt;&lt;div&gt;product_category_id&lt;/div&gt;&lt;div&gt;product_qty_type&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="170" x="640" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="VP-Qij7uiqnTVkVi7qra-7" edge="1" parent="1" source="VP-Qij7uiqnTVkVi7qra-5" style="endArrow=diamondThin;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" target="VP-Qij7uiqnTVkVi7qra-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="335" y="590" as="sourcePoint" />
+            <mxPoint x="650" y="747" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VP-Qij7uiqnTVkVi7qra-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Many to One (product_id) relationship&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="110" x="460" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
