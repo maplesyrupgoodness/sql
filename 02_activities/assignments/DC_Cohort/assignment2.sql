@@ -58,12 +58,16 @@ only the customer’s most recent visit.
 HINT: Do not use the previous visit dates filter. */
 --QUERY 3
 
-SELECT 
-customer_id, market_date,
-ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY market_date) AS visit_number
-FROM customer_purchases
-WHERE market_date < '2022-04-29'
-ORDER BY customer_id, market_date DESC
+-- move into subquery 
+SELECT * 
+FROM (
+  SELECT 
+  customer_id, market_date, 
+  ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY market_date DESC) AS visit_number
+  FROM customer_purchases
+) AS sub_visit_numbers 
+WHERE visit_number = 1 
+ORDER BY customer_id
 
 
 --END QUERY
